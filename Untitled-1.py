@@ -1,4 +1,17 @@
+
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 4000;
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
 gunicorn game3.wsg
+starty
 '''
 this program simulates a turn based game with progresion to get stronger,
 a shop to buy more in game items, and a bossroom as a means for a goal and win condition, 
