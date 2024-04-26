@@ -1,3 +1,4 @@
+gunicorn your_application.wsg
 '''
 this program simulates a turn based game with progresion to get stronger,
 a shop to buy more in game items, and a bossroom as a means for a goal and win condition, 
